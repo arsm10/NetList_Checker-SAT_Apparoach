@@ -20,4 +20,4 @@ There are six gate types which are allowed in a netlist:
 - Line 3: Names of all output nets.
 - Line 4-6: Mapping from net numbers to port names (for all inputs and outputs).
 - Line 7: Empty line.
-- Line 8 to end of file: Gate instantiations in the form: . Depending on the gate type, there number of parameters may vary. e.g. and has three parameters, while not has only two parameters.
+- Line 8 to end of file: Gate instantiations in the form: Depending on the gate type, there number of parameters may vary e.g. "AND Gate" has three parameters, while "NOT Gate" has only two parameters.
