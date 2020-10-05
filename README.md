@@ -14,3 +14,10 @@ There are six gate types which are allowed in a netlist:
 | XOR | 2 | 1 |
 | One | 0 | 1 |
 | Zero | 0 | 1 |
+# Input Format (NetList - .net files)
+- Line 1: Number of nets.
+- Line 2: Names of all input nets.
+- Line 3: Names of all output nets.
+- Line 4-6: Mapping from net numbers to port names (for all inputs and outputs).
+- Line 7: Empty line.
+- Line 8 to end of file: Gate instantiations in the form: . Depending on the gate type, there number of parameters may vary. e.g. and has three parameters, while not has only two parameters.
